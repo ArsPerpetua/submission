@@ -86,7 +86,7 @@ if df is not None:
         sns.lineplot(x='hr', y='cnt', data=df, estimator=np.mean, ax=ax)
         plt.xlabel('Jam')
         plt.ylabel('Rata-rata Penyewaan')
-        plt.title('Penyewaan Sepeda Berdasarkan Waktu")
+        plt.title("Penyewaan Sepeda Berdasarkan Waktu")
         st.pyplot(fig)
 
     # Visualisasi 4: Heatmap Korelasi Variabel
