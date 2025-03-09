@@ -13,7 +13,8 @@ st.title("📊 Dashboard Analisis Data Bike Sharing")
 # Memuat data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("all_data.csv")
+    url = https://github.com/ArsPerpetua/submission/blob/main/dashboard/all_data.csv
+    df = pd.read_csv(url)
     # Ubah format data
     month_map = {1: 'Januari', 2: 'Februari', 3: 'Maret', 4: 'April', 5: 'Mei', 6: 'Juni',
                  7: 'Juli', 8: 'Agustus', 9: 'September', 10: 'Oktober', 11: 'November', 12: 'Desember'}
