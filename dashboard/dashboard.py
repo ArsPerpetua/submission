@@ -14,7 +14,7 @@ st.title("📊 Dashboard Analisis Data Bike Sharing")
 # Memuat data
 @st.cache_data
 def load_data():
-    url = "https://github.com/ArsPerpetua/submission/blob/main/dashboard/all_data.csv"
+    url = "https://raw.githubusercontent.com/ArsPerpetua/submission/main/dashboard/all_data.csv"
     df = pd.read_csv(url)
     # Ubah format data
     month_map = {
