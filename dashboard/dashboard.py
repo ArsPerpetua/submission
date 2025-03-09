@@ -12,7 +12,7 @@ st.set_page_config(page_title="Dashboard Bike Sharing", page_icon="🚴", layout
 st.title("📊 Dashboard Analisis Data Bike Sharing")
 
 # URL Dataset di GitHub (Ganti dengan URL GitHub Raw-mu)
-GITHUB_CSV_URL = "https://raw.githubusercontent.com/username/repo/main/all_data.csv"
+GITHUB_CSV_URL = "https://github.com/ArsPerpetua/submission/blob/main/dashboard/all_data.csv"
 
 # Fungsi untuk memuat data
 @st.cache_data
